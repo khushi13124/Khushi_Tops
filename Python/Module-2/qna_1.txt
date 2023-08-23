@@ -1,0 +1,19 @@
+How memory is managed in Python?
+Memory in Python is primarily managed by Python's private heap space that stores all the data
+
+What is the purpose continue statement in python?
+When we want to skip iteration for a certain value that exists in between the range that we are
+working on, then we use the continue statement.
+eg;
+I want to print 1 to 5 but not 3,then my code would be as follows:
+for i in range(1,6):
+	if(i==3):
+		continue
+	else:
+		print(i)
+
+What are negative indexes and why are they used?
+Negative indexes are index values that can be assigned starting from -1 from the last value in the string,list,etc.
+towards the 1st character.
+They are an alternative to normal indexes primarily useful when we want to reverse out data or access it from the last.
+In this case, it proves more useful as we don't require the length of the data to access it's last 2 or 3 numbers and so on.
